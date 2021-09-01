@@ -1,0 +1,5 @@
+print('=' * 4, 'Desafio 008', '=' * 4)
+m = float(input('Digite um valor para metros: (M2)'))
+print('Cm(centimentros): {:.0f} \n milimetros(mm): {:.0f}'.format(m*100, m*1000))
+print('Quilômetro KM {:.3f} \n Hectômetro hm {} '.format(m/1000, m/100))
+print('Decametro dam {:.3f} \n Decímetro dm {:.4f}'.format(m/10, m*10))
