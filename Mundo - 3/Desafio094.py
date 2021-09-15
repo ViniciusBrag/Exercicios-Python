@@ -40,7 +40,10 @@ for p in dados['Totmulheres']:
 print()
 
 print(f'lista das pessoas acima da média')
-print(dados['Acimamedia'])
+for dado in dados["Acimamedia"]:
+    if dado == nome:
+        print(dado)
+
 
 
 
